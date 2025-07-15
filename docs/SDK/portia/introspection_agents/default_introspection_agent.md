@@ -1,6 +1,6 @@
 ---
-sidebar_label: default_introspection_agent
-title: portia.introspection_agents.default_introspection_agent
+Sidebar_Label: default_introspection_agent
+Title: portia.introspection_agents.default_introspection_agent
 ---
 
 The default introspection agent.
