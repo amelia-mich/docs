@@ -1,6 +1,6 @@
 ---
-sidebar_label: final_output_summarizer
-title: portia.execution_agents.utils.final_output_summarizer
+Sidebar_Label: final_output_summarizer
+Title: portia.execution_agents.utils.final_output_summarizer
 ---
 
 Utility class for final output summarizer.
