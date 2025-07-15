@@ -1,6 +1,6 @@
 ---
-sidebar_label: base_execution_agent
-title: portia.execution_agents.base_execution_agent
+Sidebar_Label: base_execution_agent
+Title: portia.execution_agents.base_execution_agent
 ---
 
 Agents are responsible for executing steps of a PlanRun.
@@ -54,7 +54,7 @@ of the execute_sync method.
 - `tool` _Tool | None_ - An optional tool associated with the agent (default is None).
 - `execution_hooks` - Optional hooks for extending execution functionality.
 
-#### step
+#### Step
 
 ```python
 @property
