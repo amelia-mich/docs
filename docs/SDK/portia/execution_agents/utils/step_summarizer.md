@@ -1,6 +1,6 @@
 ---
-sidebar_label: step_summarizer
-title: portia.execution_agents.utils.step_summarizer
+Sidebar_Label: step_summarizer
+Title: portia.execution_agents.utils.step_summarizer
 ---
 
 StepSummarizer implementation.
@@ -44,7 +44,7 @@ Initialize the model.
 - `step` _Step_ - The step that produced the output.
 - `summary_max_length` _int_ - The maximum length of the summary. Default is 500 characters.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(state: MessagesState) -> dict[str, Any]
