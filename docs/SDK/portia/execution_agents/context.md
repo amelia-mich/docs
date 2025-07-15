@@ -1,6 +1,6 @@
 ---
-sidebar_label: context
-title: portia.execution_agents.context
+Sidebar_label: context
+Title: portia.execution_agents.context
 ---
 
 Context builder that generates contextual information for the PlanRun.
