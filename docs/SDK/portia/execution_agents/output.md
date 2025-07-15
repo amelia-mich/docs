@@ -1,6 +1,6 @@
 ---
-sidebar_label: output
-title: portia.execution_agents.output
+Sidebar_Label: output
+Title: portia.execution_agents.output
 ---
 
 Outputs from a plan run step.
