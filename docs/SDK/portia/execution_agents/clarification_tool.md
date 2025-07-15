@@ -1,6 +1,6 @@
 ---
-sidebar_label: clarification_tool
-title: portia.execution_agents.clarification_tool
+Sidebar_Label: clarification_tool
+Title: portia.execution_agents.clarification_tool
 ---
 
 Tool for raising clarifications if unsure on an arg.
@@ -21,7 +21,7 @@ class ClarificationTool(Tool[str])
 
 Raises a clarification if the agent is unsure of an argument.
 
-#### run
+#### Run
 
 ```python
 def run(ctx: ToolRunContext, argument_name: str) -> str
