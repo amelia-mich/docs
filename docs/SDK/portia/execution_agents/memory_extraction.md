@@ -1,6 +1,6 @@
 ---
-sidebar_label: memory_extraction
-title: portia.execution_agents.memory_extraction
+Sidebar_Label: memory_extraction
+Title: portia.execution_agents.memory_extraction
 ---
 
 Memory extraction step for execution agents.
@@ -27,7 +27,7 @@ Initialize the memory extraction step.
 
 - `agent` _BaseExecutionAgent_ - The agent using the memory extraction step.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(_: dict[str, Any]) -> dict[str, Any]
