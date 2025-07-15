@@ -1,6 +1,6 @@
 ---
-sidebar_label: default_execution_agent
-title: portia.execution_agents.default_execution_agent
+Sidebar_Label: default_execution_agent
+Title: portia.execution_agents.default_execution_agent
 ---
 
 The Default execution agent for hardest problems.
@@ -109,7 +109,7 @@ Initialize the model.
 - `agent` _DefaultExecutionAgent_ - The agent using the parser model.
 - `tool_context` _ToolRunContext_ - The context for the tool.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(state: ExecutionState) -> dict[str, Any]
@@ -165,7 +165,7 @@ Initialize the model.
 - `agent` _DefaultExecutionAgent_ - The agent using the verifier model.
 - `tool_context` _ToolRunContext_ - The context for the tool.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(state: ExecutionState) -> dict[str, Any]
@@ -210,7 +210,7 @@ Initialize the model.
 - `agent` _DefaultExecutionAgent_ - The agent using the parser model.
 - `tools` _list[StructuredTool]_ - The tools to pass to the model.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(state: ExecutionState) -> dict[str, Any]
