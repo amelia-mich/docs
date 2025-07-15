@@ -1,6 +1,6 @@
 ---
-sidebar_label: one_shot_agent
-title: portia.execution_agents.one_shot_agent
+Sidebar_Label: one_shot_agent
+Title: portia.execution_agents.one_shot_agent
 ---
 
 A simple OneShotAgent optimized for simple tool calling tasks.
@@ -61,7 +61,7 @@ Initialize the OneShotToolCallingModel.
 - `agent` _OneShotAgent_ - The agent that is managing the task.
 - `tool_context` _ToolRunContext_ - The context for the tool.
 
-#### invoke
+#### Invoke
 
 ```python
 def invoke(state: ExecutionState) -> dict[str, Any]
